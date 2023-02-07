@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Sushi Royal</title>
+    <script src="js/burgermenu.js" defer></script>
+    <script src="js/slider.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav id="myTopNav" class="topNav">
+        <a href="#">
+        <h1>Sushi Royal</h1>
+        </a>
+        <ul id="main-nav">
+          <li class="nav-link"><a href="#raavarer">Råvarer</a></li>
+          <li class="nav-link"><a href="#om-sushi-royal">Om Sushi Royal</a></li>
+          <li class="nav-link"><a href="#galleri">Galleri</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" id="burgermenu">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </header>
+    
+    <!-- Slideshow -->
+      <div class="hero">
+        <div class="slideshow">
+          <div class="mySlides fade">
+            <img src="Project-images/Headerimage01.jpg" style="width:100%" alt="Header billede 1">
+          </div>
+          <div class="mySlides fade">
+            <img src="Project-images/Headerimage02.jpg" style="width:100%" alt="Header billede 2">
+          </div>
+          <div class="mySlides fade">
+            <img src="Project-images/Headerimage03.jpg" style="width:100%" alt="Header billede 3">
+          </div>
+        </div>
+        <div class="bestil-bord">
+          <a href="#">
+            <button class="bottom-right">Bestil Bord</button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Raavarer section -->
+      <section id="raavarer" class="raavarer">
+        <h1>Friske råvarer - lækker Sushi</h1>
+        <p>
+          Hos Sushi Royal bruger vi kun friske råvarer. Hver dag kører vi ud til
+          vores gartneri og fiskehandler for at hente friske råvarer. Derved kan
+          vi garatere 100% friskhed.
+        </p>
+        <a href="#" class="center-button">
+          <button class="raavarer-button">Læs mere</button>
+        </a>
+      </section>
+
+      <!-- Om Sushi Royal section -->
+      <section class="om-sushi-royal" id="om-sushi-royal">
+        <div class="left">
+          <h1>Sushi Royal</h1>
+          <p>
+            Hos Sushi Royal laver vi Sushi efter japanske standarder. Vi bruger
+            kun de bedste råvarer og laver alt fra bunden. Vi lægger vægt på høj
+            kvalitet og gode priser.
+          </p>
+          <p>
+            Du kan besøge vores restaurant i hjertet af Århus, hvor det er muligt
+            at spise i restauranten eller tage det med hjem. gode priser.
+          </p>
+        </div>
+      </section>
+
+      <!-- Galleri section -->
+      <h1 class="galleri-h1">Galleri</h1>
+      <section id="galleri" class="galleri">
+        <img src="Project-images/galleri01.jpg" alt="Galleri billede 1" />
+        <div class="menu-1">
+          <h1>Lakseceviche</h1>
+          <p>
+            Lakseceviche Laks med ceviche-dressing. Toppet med Wasabi yuzu-mayo,
+            daikon og ørredrogn.
+          </p>
+          <p>90 kr.</p>
+        </div>
+        <img src="Project-images/galleri02.jpg" alt="Galleri billede 2" />
+        <div class="menu-2">
+          <h1>California</h1>
+          <p>
+            California De lækreste ruller med surimi, avocado, agurk rullet med
+            massago og sesam mix.
+          </p>
+          <p>65 kr.</p>
+        </div>
+        <img src="Project-images/galleri03.jpg" alt="Galleri billede 3" />
+        <div class="menu-3">
+          <h1>Red salmon</h1>
+          <p>
+            Red salmon Laks, agurk, avocado, hvidløgsmayo, wasabi rullet med
+            massago og purløg.
+          </p>
+          <p>65 kr.</p>
+        </div>
+        <img src="Project-images/galleri04.jpg" alt="Galleri billede 4" />
+        <div class="menu-4">
+          <h1>Jakuza</h1>
+          <p>
+            Jakuza Crispy kylling, Avocado rullet med sesam mix toppet med Syltede
+            rødløg.
+          </p>
+          <p>90 kr.</p>
+        </div>
+        <img src="Project-images/galleri05.jpg" alt="Galleri billede 5" />
+      </section>
+
+      <!-- Nyhedsbrev section -->
+      <section id="nyhedsbrev" class="nyhedsbrev">
+        <h1>Tilmeld nyhedsbrev</h1>
+          <form action="#" method="post">
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="firstname" placeholder="" required="required">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="" required="required">
+            <input type="submit" value="SEND">
+          </form>
+      </section>
+    <!-- Footer -->
+    <footer>
+      <div class="address-information">
+        <p>Sushi Royal</p>
+        <p>Søndergade 12</p>
+        <p>8000 Århus</p>
+      </div>
+      <div class="contact-information">
+        <p><i class="fa fa-phone" aria-hidden="true"></i>3040 5060</p>
+        <p><i class="fa fa-at" aria-hidden="true"></i>mail@sushiroyal.dk</p>
+      </div>
+      <div class="some">
+        <a href="https:/facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https:/instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </div>
+    </body>
+  </footer>
+</html>
